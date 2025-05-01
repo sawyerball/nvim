@@ -354,6 +354,12 @@ require('lazy').setup({
         cursor = {
           enable = false,
         },
+        scroll = {
+          enable = true,
+          timing = function()
+            return 5
+          end,
+        },
       }
 
       -- Enable Telescope extensions if they are installed
