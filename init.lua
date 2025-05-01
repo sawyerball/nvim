@@ -350,6 +350,11 @@ require('lazy').setup({
           },
         },
       }
+      require('mini.animate').setup {
+        cursor = {
+          enable = false,
+        },
+      }
 
       -- Enable Telescope extensions if they are installed
       pcall(require('telescope').load_extension, 'fzf')
