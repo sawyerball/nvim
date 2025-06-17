@@ -1,15 +1,5 @@
 # kickstart.nvim
 
-## Introduction
-
-A starting point for Neovim that is:
-
-* Small
-* Single-file
-* Completely Documented
-
-**NOT** a Neovim distribution, but instead a starting point for your configuration.
-
 ## Installation
 
 ### Install Neovim
@@ -22,7 +12,13 @@ If you are experiencing issues, please make sure you have the latest versions.
 ### Install External Dependencies
 
 External Requirements:
-- Basic utils: `git`, `make`, `unzip`, C Compiler (`gcc`)
+- Basic utils: 
+    - `git` 
+    - `make` 
+    - `unzip` 
+    - C Compiler
+      - Linux `gcc`  
+      - Windows [zig](https://ziglang.org/download/)  
 - [ripgrep](https://github.com/BurntSushi/ripgrep#installation)
 - Clipboard tool (xclip/xsel/win32yank or other depending on the platform)
 - A [Nerd Font](https://www.nerdfonts.com/): optional, provides various icons
