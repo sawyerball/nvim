@@ -437,7 +437,7 @@ require('lazy').setup({
       'saghen/blink.cmp',
     },
     config = function()
-      require('lspconfig').lua_ls.setup {}
+      -- require('lspconfig').lua_ls.setup {}
       vim.lsp.enable 'csharp_ls'
       -- Brief aside: **What is LSP?**
       --
@@ -887,7 +887,7 @@ require('lazy').setup({
   { -- Highlight, edit, and navigate code
     'nvim-treesitter/nvim-treesitter',
     build = ':TSUpdate',
-    main = 'nvim-treesitter.configs', -- Sets main module to use for opts
+    main = 'nvim-treesitter.config', -- Sets main module to use for opts
     -- [[ Configure Treesitter ]] See `:help nvim-treesitter`
     opts = {
       ensure_installed = { 'bash', 'c', 'diff', 'html', 'lua', 'luadoc', 'markdown', 'markdown_inline', 'query', 'vim', 'vimdoc' },
