@@ -350,17 +350,17 @@ require('lazy').setup({
           },
         },
       }
-      require('mini.animate').setup {
-        cursor = {
-          enable = false,
-        },
-        scroll = {
-          enable = true,
-          timing = function()
-            return 5
-          end,
-        },
-      }
+      -- require('mini.animate').setup {
+      --   cursor = {
+      --     enable = false,
+      --   },
+      --   scroll = {
+      --     enable = true,
+      --     timing = function()
+      --       return 5
+      --     end,
+      --   },
+      -- }
 
       -- Enable Telescope extensions if they are installed
       pcall(require('telescope').load_extension, 'fzf')
